@@ -31,7 +31,8 @@ for (var i = 0; i < 9; i++) {
   currentBlock++;
 }
 
-//Appointment Update
+//Appointment Updateer
+// TODO: MAke this section a loop for more efficient coding in the future
 function appointmentUpdate() {
   appointments.i08 =  $('#08.dayplanner-slot .info').val()
   appointments.i09 =  $('#09.dayplanner-slot .info').val()
